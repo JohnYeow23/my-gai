@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 psycopg2 = "*"
+pypdf = "*"
+docx2txt = "*"
+bs4 = "*"
+unstructured = "*"
+markdown = "*"
 
 [dev-packages]
 
