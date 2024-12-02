@@ -8,8 +8,20 @@ psycopg2 = "*"
 pypdf = "*"
 docx2txt = "*"
 bs4 = "*"
-unstructured = "*"
 markdown = "*"
+langgraph = "*"
+docx = "*"
+langchain = "*"
+langchain-core = "*"
+langchain-community = "*"
+langchain-unstructured = "*"
+unstructured-client = "*"
+pdfminer = "*"
+unstructured = {extras = ["local-inference"], version = "*"}
+pandas = "*"
+langchain-anthropic = "*"
+langchain-openai = "*"
+pydantic = "*"
 
 [dev-packages]
 

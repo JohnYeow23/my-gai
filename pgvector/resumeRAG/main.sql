@@ -1,5 +1,13 @@
 ---------------------------------------------------------------------------------------------------------
-SELECT *
+SELECT
+	collection_id,
+	document,
+	cmetadata,
+	custom_id,
+	uuid
+FROM langchain_pg_embedding;
+
+SELECT DISTINCT custom_id
 FROM langchain_pg_embedding;
 
 SELECT *
